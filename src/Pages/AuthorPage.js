@@ -60,7 +60,7 @@ const AuthorPage = ({match}) => {
                                                                                       src={`${props.image}`}
                                                                                       className={classes.large}/></Box>
                         <Box m={3}><Typography
-                            className={classes.text}>{Component.description}</Typography></Box>
+                            className={classes.text}>{props.description}</Typography></Box>
                     </Grid>
                 )
             })}</Grid>
