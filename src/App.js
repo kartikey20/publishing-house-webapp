@@ -12,6 +12,7 @@ import Author from "./Pages/Author";
 import AuthorPage from "./Pages/AuthorPage";
 import Contact from "./Pages/Contact";
 import ParticlesBg from "particles-bg";
+import Report from "./Pages/Report";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                     <Route path={'/Author'} component={Author}/>
                     <Route path={'/Authors/:name'} component={AuthorPage}/>
                     <Route path={'/Contact'} component={Contact}/>
+                    <Route path={'/Report'} component={Report}/>
                 </Switch>
             </Router>
             <ParticlesBg type="cobweb" color="#a6a4ad" num={70} bg={true}/>

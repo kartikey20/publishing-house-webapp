@@ -24,6 +24,8 @@ import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
+import AssignmentIndOutlinedIcon from '@material-ui/icons/AssignmentIndOutlined';
+
 
 const drawerWidth = 300;
 const BootstrapButton = withStyles({
@@ -137,7 +139,7 @@ export default function NavigationBar() {
                     >
                         <MenuIcon/>
                     </IconButton></Hidden>
-                    <Link  className={classes.link} to='/'><IconButton>
+                    <Link className={classes.link} to='/'><IconButton>
                         <img src="https://img.icons8.com/fluent-systems-filled/48/ffffff/library.png"/>
                     </IconButton></Link>
                     <Typography className={classes.title} variant="h6">
@@ -150,7 +152,9 @@ export default function NavigationBar() {
                     <Hidden smDown><Link className={classes.link} to="/Author"> <BootstrapButton
                         classesName={classes.button}>Author</BootstrapButton></Link></Hidden>
                     <Hidden smDown><Link className={classes.link} to="/Contact"> <BootstrapButton
-                        classesName={classes.button}>Contact Us</BootstrapButton></Link></Hidden>
+                        classesName={classes.button}>Contact Us</BootstrapButton></Link></Hidden><Hidden smDown><Link
+                    className={classes.link} to="/Report"> <BootstrapButton
+                    classesName={classes.button}>Report</BootstrapButton></Link></Hidden>
                     <Hidden smDown>
                         <div className={classes.search}>
                             <div className={classes.searchIcon}>
@@ -170,12 +174,12 @@ export default function NavigationBar() {
             </AppBar>
 
             <Hidden smUp><Drawer
-                                          anchor="left"
-                                          open={open}
+                anchor="left"
+                open={open}
 
-                                          classes={{
-                                              paper: classes.drawerPaper,
-                                          }}
+                classes={{
+                    paper: classes.drawerPaper,
+                }}
             >
                 <div role="presentation">
                     <IconButton onClick={handleDrawerClose}>
@@ -202,6 +206,9 @@ export default function NavigationBar() {
                 </ListItem><ListItem button>
                     <ListItemIcon> <ContactMailIcon/></ListItemIcon>
                     <Link className={classes.link} to={`/Contact`}><ListItemText primary={'Contact Us'}/></Link>
+                </ListItem><ListItem button>
+                    <ListItemIcon> <AssignmentIndOutlinedIcon/></ListItemIcon>
+                    <Link className={classes.link} to={`/Report`}><ListItemText primary={'Report'}/></Link>
                 </ListItem>
 
                 </List>
