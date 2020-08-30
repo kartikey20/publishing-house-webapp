@@ -5,7 +5,7 @@ import makeStyles from "@material-ui/core/styles/makeStyles";
 
 const useStyle = makeStyles((theme) => ({
         root: {
-            margin: '5em',
+            margin: '3em',
             [theme.breakpoints.down('sm')]: {
                 margin: '2em',
             },
@@ -14,8 +14,8 @@ const useStyle = makeStyles((theme) => ({
         title: {
             display: 'flex',
             justifyContent: 'center',
-            marginTop: '5em',
-            marginBottom: '5em',
+            marginTop: '3em',
+            marginBottom: '3em',
         },
         text: {
             textAlign: 'justify',
