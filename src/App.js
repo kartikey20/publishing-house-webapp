@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import {
+    BrowserRouter as Router,
     Switch,
-    Route, BrowserRouter,
+    Route,
 } from "react-router-dom";
 import NavigationBar from "./Components/Navigation";
 import Home from "./Pages/Home";
@@ -15,18 +16,17 @@ import ParticlesBg from "particles-bg";
 function App() {
     return (
         <>
-            <BrowserRouter basename='/publishing-house-webapp'>
-
+            <Router>
                 <NavigationBar/>
-
                 <Switch>
-                    <Route path={'/Home'} exact component={Home}/>
+                    <Route path={'/'} exact component={Home}/>
+                    <Route path={'/Home'}  component={Home}/>
                     <Route path={'/About'} component={About}/>
                     <Route path={'/Author'} component={Author}/>
                     <Route path={'/Authors/:name'} component={AuthorPage}/>
                     <Route path={'/Contact'} component={Contact}/>
                 </Switch>
-            </BrowserRouter>
+            </Router>
             <ParticlesBg type="cobweb" color="#a6a4ad" num={70} bg={true}/>
         </>
     );
