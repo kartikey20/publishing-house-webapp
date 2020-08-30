@@ -24,9 +24,6 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         margin: '3em'
     },
-    gridLayout: {
-        [theme.breakpoints.down('sm')]: {direction: "column"},
-    },
 }));
 
 export default function Author() {
@@ -38,42 +35,39 @@ export default function Author() {
                 Our Authors
             </Typography>
             </Box>
-            <Grid container direction='column'
-                  justify="center"
-                  alignItems="center">
+            <Box m={3}><Grid container justify="space-around" alignItems="center">
                 {data.map(props => {
                     let hyphen = props.title.replace(/\\s+/g, '-');
                     return (
-                        <Grid className={classes.gridLayout} item>
-                            <Box my={3}>
-                                <Card className={classes.root}>
-                                    <CardActionArea>
-                                        <CardMedia
-                                            component="img"
-                                            alt="Author-Image"
-                                            height="300"
-                                            image={`${props.image}`}
-                                            title={`${props.title}`}
-                                        />
-                                        <CardContent>
-                                            <Typography gutterBottom variant="h5" component="h2">
-                                                {props.title}
-                                            </Typography>
-                                            <Typography variant="body2" color="textSecondary" component="p">
-                                                {props.description.substring(0, 250)}...
-                                            </Typography>
-                                        </CardContent>
-                                    </CardActionArea>
-                                    <CardActions>
-                                        <Link to={`/Authors/${hyphen}`}><Button size="small" color="primary">
-                                            Learn More
-                                        </Button></Link>
-                                    </CardActions>
-                                </Card>
-                            </Box>
+                        <Grid item xs={12} sm={4}>
+                            <Card className={classes.root}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        alt="Author-Image"
+                                        height="300"
+                                        image={`${props.image}`}
+                                        title={`${props.title}`}
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="h2">
+                                            {props.title}
+                                        </Typography>
+                                        <Typography variant="body2" color="textSecondary" component="p">
+                                            {props.description.substring(0, 250)}...
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                <CardActions>
+                                    <Link className={classes.link} to={`/Authors/${hyphen}`}><Button size="small"
+                                                                                                     color="primary">
+                                        Learn More
+                                    </Button></Link>
+                                </CardActions>
+                            </Card>
                         </Grid>
                     )
                 })}
-            </Grid></>
+            </Grid></Box></>
     );
 }
