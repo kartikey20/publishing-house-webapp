@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/publishing-house-webapp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/publishing-house-webapp/static/js/main.51119343.chunk.js",
+    "main.js.map": "/publishing-house-webapp/static/js/main.51119343.chunk.js.map",
+    "runtime-main.js": "/publishing-house-webapp/static/js/runtime-main.01b42564.js",
+    "runtime-main.js.map": "/publishing-house-webapp/static/js/runtime-main.01b42564.js.map",
+    "static/js/2.f8598a83.chunk.js": "/publishing-house-webapp/static/js/2.f8598a83.chunk.js",
+    "static/js/2.f8598a83.chunk.js.map": "/publishing-house-webapp/static/js/2.f8598a83.chunk.js.map",
+    "index.html": "/publishing-house-webapp/index.html",
+    "precache-manifest.ec96f893e7011984a05717fc5b1e6bf4.js": "/publishing-house-webapp/precache-manifest.ec96f893e7011984a05717fc5b1e6bf4.js",
+    "service-worker.js": "/publishing-house-webapp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/publishing-house-webapp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f8598a83.chunk.js.LICENSE.txt": "/publishing-house-webapp/static/js/2.f8598a83.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01b42564.js",
+    "static/js/2.f8598a83.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.51119343.chunk.js"
+  ]
+}
