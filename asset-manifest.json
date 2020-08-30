@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "https://kartikey20.github.io/publishing-house-webapp/static/css/main.5f361e03.chunk.css",
-    "main.js": "https://kartikey20.github.io/publishing-house-webapp/static/js/main.59ad431d.chunk.js",
-    "main.js.map": "https://kartikey20.github.io/publishing-house-webapp/static/js/main.59ad431d.chunk.js.map",
+    "main.js": "https://kartikey20.github.io/publishing-house-webapp/static/js/main.d5dbeb62.chunk.js",
+    "main.js.map": "https://kartikey20.github.io/publishing-house-webapp/static/js/main.d5dbeb62.chunk.js.map",
     "runtime-main.js": "https://kartikey20.github.io/publishing-house-webapp/static/js/runtime-main.412fd64d.js",
     "runtime-main.js.map": "https://kartikey20.github.io/publishing-house-webapp/static/js/runtime-main.412fd64d.js.map",
-    "static/js/2.f8598a83.chunk.js": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.f8598a83.chunk.js",
-    "static/js/2.f8598a83.chunk.js.map": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.f8598a83.chunk.js.map",
+    "static/js/2.4409c584.chunk.js": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.4409c584.chunk.js",
+    "static/js/2.4409c584.chunk.js.map": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.4409c584.chunk.js.map",
     "index.html": "https://kartikey20.github.io/publishing-house-webapp/index.html",
-    "precache-manifest.98fef5cca9d4081660f18ce477b33e73.js": "https://kartikey20.github.io/publishing-house-webapp/precache-manifest.98fef5cca9d4081660f18ce477b33e73.js",
+    "precache-manifest.321ce515d0429a89b432be04323215ec.js": "https://kartikey20.github.io/publishing-house-webapp/precache-manifest.321ce515d0429a89b432be04323215ec.js",
     "service-worker.js": "https://kartikey20.github.io/publishing-house-webapp/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "https://kartikey20.github.io/publishing-house-webapp/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.f8598a83.chunk.js.LICENSE.txt": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.f8598a83.chunk.js.LICENSE.txt"
+    "static/js/2.4409c584.chunk.js.LICENSE.txt": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.4409c584.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.412fd64d.js",
-    "static/js/2.f8598a83.chunk.js",
+    "static/js/2.4409c584.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.59ad431d.chunk.js"
+    "static/js/main.d5dbeb62.chunk.js"
   ]
 }
