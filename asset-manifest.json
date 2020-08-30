@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/publishing-house-webapp/static/css/main.5f361e03.chunk.css",
-    "main.js": "/publishing-house-webapp/static/js/main.e35191b9.chunk.js",
-    "main.js.map": "/publishing-house-webapp/static/js/main.e35191b9.chunk.js.map",
+    "main.js": "/publishing-house-webapp/static/js/main.4d17a347.chunk.js",
+    "main.js.map": "/publishing-house-webapp/static/js/main.4d17a347.chunk.js.map",
     "runtime-main.js": "/publishing-house-webapp/static/js/runtime-main.01b42564.js",
     "runtime-main.js.map": "/publishing-house-webapp/static/js/runtime-main.01b42564.js.map",
     "static/js/2.f8598a83.chunk.js": "/publishing-house-webapp/static/js/2.f8598a83.chunk.js",
     "static/js/2.f8598a83.chunk.js.map": "/publishing-house-webapp/static/js/2.f8598a83.chunk.js.map",
     "index.html": "/publishing-house-webapp/index.html",
-    "precache-manifest.250614a32cf9220cb324c217a07ddebc.js": "/publishing-house-webapp/precache-manifest.250614a32cf9220cb324c217a07ddebc.js",
+    "precache-manifest.6b0fcbe80c8e09ab1743f69f9d63925d.js": "/publishing-house-webapp/precache-manifest.6b0fcbe80c8e09ab1743f69f9d63925d.js",
     "service-worker.js": "/publishing-house-webapp/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/publishing-house-webapp/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.f8598a83.chunk.js.LICENSE.txt": "/publishing-house-webapp/static/js/2.f8598a83.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.01b42564.js",
     "static/js/2.f8598a83.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.e35191b9.chunk.js"
+    "static/js/main.4d17a347.chunk.js"
   ]
 }
