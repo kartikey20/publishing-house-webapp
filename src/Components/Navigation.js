@@ -9,7 +9,6 @@ import Hidden from '@material-ui/core/Hidden';
 import {Link} from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import withStyles from "@material-ui/core/styles/withStyles";
-import clsx from 'clsx';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import Drawer from "@material-ui/core/Drawer";
@@ -25,7 +24,6 @@ import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
-import ClickAwayListener from "@material-ui/core/ClickAwayListener";
 
 const drawerWidth = 300;
 const BootstrapButton = withStyles({
@@ -68,8 +66,8 @@ const useStyles = makeStyles((theme) => ({
     title: {
         flexGrow: 1,
     },
-    appBarIcon:{
-      fontSize: "14px",
+    appBarIcon: {
+        fontSize: "14px",
     },
     search: {
         position: 'relative',
@@ -136,12 +134,11 @@ export default function NavigationBar() {
                         aria-label="open-drawer"
                         onClick={handleDrawerOpen}
                         edge="start"
-                        className={clsx(classes.menuButton, open && classes.hide)}
                     >
                         <MenuIcon/>
                     </IconButton></Hidden>
-                    <Link className={classes.link} to='/'><IconButton>
-                        <img  src="https://img.icons8.com/fluent-systems-filled/48/ffffff/library.png"/>
+                    <Link  className={classes.link} to='/'><IconButton>
+                        <img src="https://img.icons8.com/fluent-systems-filled/48/ffffff/library.png"/>
                     </IconButton></Link>
                     <Typography className={classes.title} variant="h6">
                         Ouroboros Publishing
@@ -154,36 +151,39 @@ export default function NavigationBar() {
                         classesName={classes.button}>Author</BootstrapButton></Link></Hidden>
                     <Hidden smDown><Link className={classes.link} to="/Contact"> <BootstrapButton
                         classesName={classes.button}>Contact Us</BootstrapButton></Link></Hidden>
-                    <Hidden smDown><div className={classes.search}>
-                        <div className={classes.searchIcon}>
-                            <SearchIcon/>
+                    <Hidden smDown>
+                        <div className={classes.search}>
+                            <div className={classes.searchIcon}>
+                                <SearchIcon/>
+                            </div>
+                            <InputBase
+                                placeholder="Search…"
+                                classes={{
+                                    root: classes.inputRoot,
+                                    input: classes.inputInput,
+                                }}
+                                inputProps={{'aria-label': 'search'}}
+                            />
                         </div>
-                        <InputBase
-                            placeholder="Search…"
-                            classes={{
-                                root: classes.inputRoot,
-                                input: classes.inputInput,
-                            }}
-                            inputProps={{'aria-label': 'search'}}
-                        />
-                    </div></Hidden>
+                    </Hidden>
                 </Toolbar>
             </AppBar>
 
-            <Hidden smUp><Drawer width="10em"
-                                 anchor="left"
-                                 open={open}
-                                 classes={{
-                                     paper: classes.drawerPaper,
-                                 }}
+            <Hidden smUp><Drawer
+                                          anchor="left"
+                                          open={open}
+
+                                          classes={{
+                                              paper: classes.drawerPaper,
+                                          }}
             >
                 <div role="presentation">
                     <IconButton onClick={handleDrawerClose}>
                         {theme.direction === 'ltr' ? <ChevronLeftIcon/> : <ChevronRightIcon/>}
                         <Link className={classes.link} to='/'><IconButton>
-                            <img  src="https://img.icons8.com/fluent-systems-filled/48/000000/library.png"/>
+                            <img src="https://img.icons8.com/fluent-systems-filled/48/000000/library.png"/>
                         </IconButton></Link>
-                        <Typography className={classes.appBarIcon}  >
+                        <Typography className={classes.appBarIcon}>
                             Ouroboros Publishing
                         </Typography>
                     </IconButton>
