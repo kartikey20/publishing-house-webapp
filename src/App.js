@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
 import {
-    BrowserRouter as Router,
     Switch,
-    Route,
+    Route, BrowserRouter,
 } from "react-router-dom";
 import NavigationBar from "./Components/Navigation";
 import Home from "./Pages/Home";
@@ -16,7 +15,7 @@ import ParticlesBg from "particles-bg";
 function App() {
     return (
         <>
-            <Router>
+            <BrowserRouter basename='/https://kartikey20.github.io/publishing-house-webapp'>
 
                 <NavigationBar/>
 
@@ -27,8 +26,8 @@ function App() {
                     <Route path={'/Authors/:name'} component={AuthorPage}/>
                     <Route path={'/Contact'} component={Contact}/>
                 </Switch>
-            </Router>
-            <ParticlesBg type="cobweb" color="#a6a4ad" num={70} bg={true} />
+            </BrowserRouter>
+            <ParticlesBg type="cobweb" color="#a6a4ad" num={70} bg={true}/>
         </>
     );
 }
