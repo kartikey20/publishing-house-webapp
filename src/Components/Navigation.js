@@ -143,7 +143,7 @@ export default function NavigationBar() {
                     <Typography className={classes.title} variant="h6">
                         Ouroboros Publishing
                     </Typography>
-                    <Hidden smDown><Link className={classes.link} to="/"> <BootstrapButton
+                    <Hidden smDown><Link className={classes.link} to="/Home"> <BootstrapButton
                         classesName={classes.button}>Home</BootstrapButton></Link></Hidden>
                     <Hidden smDown><Link className={classes.link} to="/About"> <BootstrapButton
                         classesName={classes.button}>About Us</BootstrapButton></Link></Hidden>
@@ -192,7 +192,7 @@ export default function NavigationBar() {
                 <List onClick={handleDrawerClose}>
                     <ListItem button>
                         <ListItemIcon> <HomeIcon/></ListItemIcon>
-                        <Link className={classes.link} to={`/`}><ListItemText primary={'Home'}/></Link>
+                        <Link className={classes.link} to={`/Home`}><ListItemText primary={'Home'}/></Link>
                     </ListItem><ListItem button>
                     <ListItemIcon> <InfoIcon/></ListItemIcon>
                     <Link className={classes.link} to={`/About`}><ListItemText primary={'About Us'}/></Link>
