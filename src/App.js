@@ -15,12 +15,12 @@ import ParticlesBg from "particles-bg";
 function App() {
     return (
         <>
-            <BrowserRouter basename='/https://kartikey20.github.io/publishing-house-webapp'>
+            <BrowserRouter basename='/publishing-house-webapp'>
 
                 <NavigationBar/>
 
                 <Switch>
-                    <Route path='/' exact component={Home}/>
+                    <Route path={'/Home'} exact component={Home}/>
                     <Route path={'/About'} component={About}/>
                     <Route path={'/Author'} component={Author}/>
                     <Route path={'/Authors/:name'} component={AuthorPage}/>
