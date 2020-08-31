@@ -2,7 +2,6 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kartikey20.github.io/publishing-house-webapp",
   "dependencies": {
     "@blackbox-vision/react-particles": "^1.2.0",
     "@testing-library/jest-dom": "^4.2.4",
