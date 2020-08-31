@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://kartikey20.github.io/publishing-house-webapp/static/css/main.5f361e03.chunk.css",
-    "main.js": "https://kartikey20.github.io/publishing-house-webapp/static/js/main.c89d1100.chunk.js",
-    "main.js.map": "https://kartikey20.github.io/publishing-house-webapp/static/js/main.c89d1100.chunk.js.map",
-    "runtime-main.js": "https://kartikey20.github.io/publishing-house-webapp/static/js/runtime-main.412fd64d.js",
-    "runtime-main.js.map": "https://kartikey20.github.io/publishing-house-webapp/static/js/runtime-main.412fd64d.js.map",
-    "static/js/2.4409c584.chunk.js": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.4409c584.chunk.js",
-    "static/js/2.4409c584.chunk.js.map": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.4409c584.chunk.js.map",
-    "index.html": "https://kartikey20.github.io/publishing-house-webapp/index.html",
-    "precache-manifest.fea79345a375f6753faad717965256da.js": "https://kartikey20.github.io/publishing-house-webapp/precache-manifest.fea79345a375f6753faad717965256da.js",
-    "service-worker.js": "https://kartikey20.github.io/publishing-house-webapp/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "https://kartikey20.github.io/publishing-house-webapp/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4409c584.chunk.js.LICENSE.txt": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.4409c584.chunk.js.LICENSE.txt"
+    "main.css": "/website/static/css/main.5f361e03.chunk.css",
+    "main.js": "/website/static/js/main.d2eb51c2.chunk.js",
+    "main.js.map": "/website/static/js/main.d2eb51c2.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.9b825fe6.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.9b825fe6.js.map",
+    "static/js/2.4409c584.chunk.js": "/website/static/js/2.4409c584.chunk.js",
+    "static/js/2.4409c584.chunk.js.map": "/website/static/js/2.4409c584.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.a3cee5bfae3646bc51bd604f1a259cd4.js": "/website/precache-manifest.a3cee5bfae3646bc51bd604f1a259cd4.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/website/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4409c584.chunk.js.LICENSE.txt": "/website/static/js/2.4409c584.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.412fd64d.js",
+    "static/js/runtime-main.9b825fe6.js",
     "static/js/2.4409c584.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c89d1100.chunk.js"
+    "static/js/main.d2eb51c2.chunk.js"
   ]
 }
