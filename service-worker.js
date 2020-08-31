@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://kartikey20.github.io/publishing-house-webapp/precache-manifest.321ce515d0429a89b432be04323215ec.js"
+  "https://kartikey20.github.io/publishing-house-webapp/precache-manifest.fea79345a375f6753faad717965256da.js"
 );
 
 self.addEventListener('message', (event) => {

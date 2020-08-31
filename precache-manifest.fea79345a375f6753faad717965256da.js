@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6593c03911e3c8957648d8e8ef3ec4e8",
+    "revision": "2c49c001c1937b8f00fd53c8b85c85ad",
     "url": "https://kartikey20.github.io/publishing-house-webapp/index.html"
   },
   {
-    "revision": "63118cb9916410f16b0a",
+    "revision": "2c5ee5644e507c26971b",
     "url": "https://kartikey20.github.io/publishing-house-webapp/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://kartikey20.github.io/publishing-house-webapp/static/js/2.4409c584.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63118cb9916410f16b0a",
-    "url": "https://kartikey20.github.io/publishing-house-webapp/static/js/main.d5dbeb62.chunk.js"
+    "revision": "2c5ee5644e507c26971b",
+    "url": "https://kartikey20.github.io/publishing-house-webapp/static/js/main.c89d1100.chunk.js"
   },
   {
     "revision": "662c711028ce4d465740",
